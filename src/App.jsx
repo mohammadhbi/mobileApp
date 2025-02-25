@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./COMPONENTS/Nav";
 import ShopBag from "./COMPONENTS/ShopBag";
-import Products from "./COMPONENTS/Products";
+import Products from "./COMPONENTS/products/Products";
 import SignUp from "./COMPONENTS/SignUp";
 
 export default function App() {

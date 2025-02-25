@@ -1,7 +1,8 @@
+import ProductsLIst from "./productsLIst"
 function Products(){
     return (
     <div>
-  <h1>products</h1>    
+  <ProductsLIst/> 
     </div>
   )
 }
