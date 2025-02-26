@@ -70,7 +70,7 @@ console.log(items);
       {isLoading ? (
         <Loadaing />
       ) : (
-        <div>
+        <div className="border-b-4  pb-8">
           {items.map((item) => {
             return <Product key={item.id} {...item} removeItem={removeItem} totalPrice={totalPrice} />;
           })}
