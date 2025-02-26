@@ -3,6 +3,7 @@ import Nav from "./COMPONENTS/Nav";
 import ShopBag from "./COMPONENTS/ShopBag";
 import Products from "./COMPONENTS/products/Products";
 import SignUp from "./COMPONENTS/SignUp";
+import Login from "./Login";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Products />} /> 
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<Login/> } />
         <Route path="/products" element={<Products />} />
         <Route path="/shopbag" element={<ShopBag />} />
       </Routes>
